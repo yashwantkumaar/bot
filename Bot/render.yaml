@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: crackit-bot
+    env: python
+    startCommand: python crackit.py
